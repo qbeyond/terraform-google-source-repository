@@ -19,13 +19,13 @@ variable "project_id" {
   type        = string
 }
 
-variable "iam_members" {
-  description = "IAM members for each topic role."
-  type        = map(set(string))
+variable "iam" {
+  description = "IAM bindings in {ROLE => [MEMBERS]} format."
+  type        = map(list(string))
   default     = {}
 }
 
 variable "name" {
-  description = "Repository topic name."
+  description = "Repository name."
   type        = string
 }
