@@ -1,6 +1,6 @@
 # Google Cloud Source Repository Module
 
-This Module is created from the Google Cloud Platform modules folder and holds its git history to be updatable. To Update this module you need to filter the cloud-foundation-fabric repository with the [git-filter-repo](https://github.com/newren/git-filter-repo) plugin and use the existing [filter parameters](../cloud-foundation-fabric/git-repo-filter-module-source-repository.txt).
+Original Module from [Cloud-Foundation-Fabric](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric)
 
 This module allows managing a single Cloud Source Repository, including IAM bindings and basic Cloud Build triggers.
 
@@ -80,3 +80,7 @@ module "repo" {
 | [url](outputs.tf#L27)  | Repository URL.  |           |
 
 <!-- END TFDOC -->
+
+## Contribute
+
+This Module is created from the Google Cloud Platform modules folder and holds its git history to be updatable. To Update this module you need to filter the cloud-foundation-fabric repository with the [git-filter-repo](https://github.com/newren/git-filter-repo) plugin and use the existing [filter parameters](../cloud-foundation-fabric/git-repo-filter-module-source-repository.txt).
