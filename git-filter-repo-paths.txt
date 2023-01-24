@@ -1,0 +1,7 @@
+# Paths for the stage
+modules/source-repository/
+modules/source-repository/==>
+
+# Files required for Licensing
+LICENSE
+NOTICE
