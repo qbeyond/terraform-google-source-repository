@@ -86,6 +86,9 @@ module "repo" {
 
 This module allows managing a single Cloud Source Repository, including IAM bindings and basic Cloud Build triggers.
 
+Original Module from [Cloud-Foundation-Fabric](https://github.com/GoogleCloudPlatform/cloud-foundation-fabric)
+
+
 ## Examples
 
 ### Basic
